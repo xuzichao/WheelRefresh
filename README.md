@@ -67,5 +67,10 @@ Pull-down and pull-up refresh is a common interface of IOS development capabilit
 
     Blog：xuzichao.com
     Weibo：@他们都叫我草莓
+
+
+**Gif**
+
+![(wheelReash)](http://images.cnitblog.com/blog2015/497279/201503/061058415392353.gif)
     
     
