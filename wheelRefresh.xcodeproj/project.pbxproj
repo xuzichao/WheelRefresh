@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA175B801AE840DA00E7B8B2 /* WheelIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175B7F1AE840DA00E7B8B2 /* WheelIndicatorView.m */; };
+		EAC9C25E1AE6AD52004D9E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C25D1AE6AD52004D9E93 /* main.m */; };
+		EAC9C2611AE6AD52004D9E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C2601AE6AD52004D9E93 /* AppDelegate.m */; };
+		EAC9C2671AE6AD52004D9E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C2651AE6AD52004D9E93 /* Main.storyboard */; };
+		EAC9C2691AE6AD53004D9E93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C2681AE6AD53004D9E93 /* Images.xcassets */; };
+		EAC9C26C1AE6AD53004D9E93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C26A1AE6AD53004D9E93 /* LaunchScreen.xib */; };
+		EAC9C2781AE6AD53004D9E93 /* wheelRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C2771AE6AD53004D9E93 /* wheelRefreshTests.m */; };
+		EAC9C2911AE6B5D9004D9E93 /* WheelRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C2901AE6B5D8004D9E93 /* WheelRefreshControl.m */; };
+		EAEA66551AE7ECE500B51129 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA66541AE7ECE500B51129 /* ExampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC9C2721AE6AD53004D9E93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC9C2501AE6AD52004D9E93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC9C2571AE6AD52004D9E93;
+			remoteInfo = wheelRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA175B7E1AE840DA00E7B8B2 /* WheelIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelIndicatorView.h; sourceTree = "<group>"; };
+		EA175B7F1AE840DA00E7B8B2 /* WheelIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelIndicatorView.m; sourceTree = "<group>"; };
+		EAC9C2581AE6AD52004D9E93 /* wheelRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheelRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC9C25C1AE6AD52004D9E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC9C25D1AE6AD52004D9E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAC9C25F1AE6AD52004D9E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAC9C2601AE6AD52004D9E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAC9C2661AE6AD52004D9E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC9C2681AE6AD53004D9E93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAC9C26B1AE6AD53004D9E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAC9C2711AE6AD53004D9E93 /* wheelRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wheelRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC9C2761AE6AD53004D9E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC9C2771AE6AD53004D9E93 /* wheelRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheelRefreshTests.m; sourceTree = "<group>"; };
+		EAC9C28F1AE6B5D8004D9E93 /* WheelRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelRefreshControl.h; sourceTree = "<group>"; };
+		EAC9C2901AE6B5D8004D9E93 /* WheelRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelRefreshControl.m; sourceTree = "<group>"; };
+		EAEA66531AE7ECE500B51129 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		EAEA66541AE7ECE500B51129 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC9C2551AE6AD52004D9E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC9C26E1AE6AD53004D9E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC9C24F1AE6AD52004D9E93 = {
+			isa = PBXGroup;
+			children = (
+				EAC9C25A1AE6AD52004D9E93 /* wheelRefresh */,
+				EAC9C2741AE6AD53004D9E93 /* wheelRefreshTests */,
+				EAC9C2591AE6AD52004D9E93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC9C2591AE6AD52004D9E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C2581AE6AD52004D9E93 /* wheelRefresh.app */,
+				EAC9C2711AE6AD53004D9E93 /* wheelRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC9C25A1AE6AD52004D9E93 /* wheelRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C28E1AE6B52E004D9E93 /* WheelRefreshControlParts */,
+				EAE4C0931AE96FEE006CE1BA /* ExampleController */,
+				EAC9C25F1AE6AD52004D9E93 /* AppDelegate.h */,
+				EAC9C2601AE6AD52004D9E93 /* AppDelegate.m */,
+				EAC9C2651AE6AD52004D9E93 /* Main.storyboard */,
+				EAC9C2681AE6AD53004D9E93 /* Images.xcassets */,
+				EAC9C26A1AE6AD53004D9E93 /* LaunchScreen.xib */,
+				EAC9C25B1AE6AD52004D9E93 /* Supporting Files */,
+			);
+			path = wheelRefresh;
+			sourceTree = "<group>";
+		};
+		EAC9C25B1AE6AD52004D9E93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C25C1AE6AD52004D9E93 /* Info.plist */,
+				EAC9C25D1AE6AD52004D9E93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC9C2741AE6AD53004D9E93 /* wheelRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C2771AE6AD53004D9E93 /* wheelRefreshTests.m */,
+				EAC9C2751AE6AD53004D9E93 /* Supporting Files */,
+			);
+			path = wheelRefreshTests;
+			sourceTree = "<group>";
+		};
+		EAC9C2751AE6AD53004D9E93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C2761AE6AD53004D9E93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC9C28E1AE6B52E004D9E93 /* WheelRefreshControlParts */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C28F1AE6B5D8004D9E93 /* WheelRefreshControl.h */,
+				EAC9C2901AE6B5D8004D9E93 /* WheelRefreshControl.m */,
+				EA175B7E1AE840DA00E7B8B2 /* WheelIndicatorView.h */,
+				EA175B7F1AE840DA00E7B8B2 /* WheelIndicatorView.m */,
+			);
+			name = WheelRefreshControlParts;
+			sourceTree = "<group>";
+		};
+		EAE4C0931AE96FEE006CE1BA /* ExampleController */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA66531AE7ECE500B51129 /* ExampleViewController.h */,
+				EAEA66541AE7ECE500B51129 /* ExampleViewController.m */,
+			);
+			name = ExampleController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC9C2571AE6AD52004D9E93 /* wheelRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC9C27B1AE6AD53004D9E93 /* Build configuration list for PBXNativeTarget "wheelRefresh" */;
+			buildPhases = (
+				EAC9C2541AE6AD52004D9E93 /* Sources */,
+				EAC9C2551AE6AD52004D9E93 /* Frameworks */,
+				EAC9C2561AE6AD52004D9E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wheelRefresh;
+			productName = wheelRefresh;
+			productReference = EAC9C2581AE6AD52004D9E93 /* wheelRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC9C2701AE6AD53004D9E93 /* wheelRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC9C27E1AE6AD53004D9E93 /* Build configuration list for PBXNativeTarget "wheelRefreshTests" */;
+			buildPhases = (
+				EAC9C26D1AE6AD53004D9E93 /* Sources */,
+				EAC9C26E1AE6AD53004D9E93 /* Frameworks */,
+				EAC9C26F1AE6AD53004D9E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC9C2731AE6AD53004D9E93 /* PBXTargetDependency */,
+			);
+			name = wheelRefreshTests;
+			productName = wheelRefreshTests;
+			productReference = EAC9C2711AE6AD53004D9E93 /* wheelRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC9C2501AE6AD52004D9E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CatooDev;
+				TargetAttributes = {
+					EAC9C2571AE6AD52004D9E93 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EAC9C2701AE6AD53004D9E93 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EAC9C2571AE6AD52004D9E93;
+					};
+				};
+			};
+			buildConfigurationList = EAC9C2531AE6AD52004D9E93 /* Build configuration list for PBXProject "wheelRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC9C24F1AE6AD52004D9E93;
+			productRefGroup = EAC9C2591AE6AD52004D9E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC9C2571AE6AD52004D9E93 /* wheelRefresh */,
+				EAC9C2701AE6AD53004D9E93 /* wheelRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC9C2561AE6AD52004D9E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC9C2671AE6AD52004D9E93 /* Main.storyboard in Resources */,
+				EAC9C26C1AE6AD53004D9E93 /* LaunchScreen.xib in Resources */,
+				EAC9C2691AE6AD53004D9E93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC9C26F1AE6AD53004D9E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC9C2541AE6AD52004D9E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA175B801AE840DA00E7B8B2 /* WheelIndicatorView.m in Sources */,
+				EAC9C2611AE6AD52004D9E93 /* AppDelegate.m in Sources */,
+				EAC9C2911AE6B5D9004D9E93 /* WheelRefreshControl.m in Sources */,
+				EAEA66551AE7ECE500B51129 /* ExampleViewController.m in Sources */,
+				EAC9C25E1AE6AD52004D9E93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC9C26D1AE6AD53004D9E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC9C2781AE6AD53004D9E93 /* wheelRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC9C2731AE6AD53004D9E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC9C2571AE6AD52004D9E93 /* wheelRefresh */;
+			targetProxy = EAC9C2721AE6AD53004D9E93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC9C2651AE6AD52004D9E93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC9C2661AE6AD52004D9E93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC9C26A1AE6AD53004D9E93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC9C26B1AE6AD53004D9E93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC9C2791AE6AD53004D9E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAC9C27A1AE6AD53004D9E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC9C27C1AE6AD53004D9E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = wheelRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAC9C27D1AE6AD53004D9E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = wheelRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAC9C27F1AE6AD53004D9E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wheelRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wheelRefresh.app/wheelRefresh";
+			};
+			name = Debug;
+		};
+		EAC9C2801AE6AD53004D9E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wheelRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wheelRefresh.app/wheelRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC9C2531AE6AD52004D9E93 /* Build configuration list for PBXProject "wheelRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC9C2791AE6AD53004D9E93 /* Debug */,
+				EAC9C27A1AE6AD53004D9E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC9C27B1AE6AD53004D9E93 /* Build configuration list for PBXNativeTarget "wheelRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC9C27C1AE6AD53004D9E93 /* Debug */,
+				EAC9C27D1AE6AD53004D9E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC9C27E1AE6AD53004D9E93 /* Build configuration list for PBXNativeTarget "wheelRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC9C27F1AE6AD53004D9E93 /* Debug */,
+				EAC9C2801AE6AD53004D9E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC9C2501AE6AD52004D9E93 /* Project object */;
+}
