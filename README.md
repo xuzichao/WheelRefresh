@@ -54,21 +54,6 @@ Pull-down and pull-up refresh is a common interface of IOS development capabilit
             end：[ FooterRefresh endFooterRefreshing ];
 
 
-
-
-**个人**
-
-    博客：xuzichao.com
-    微博：@他们都叫我草莓
-    
-
-
-**Personal**
-
-    Blog：xuzichao.com
-    Weibo：@他们都叫我草莓
-
-
 **Gif**
 
 ![(wheelReash)](http://xuzichao.com/myPics/wheelRefresh.gif)
